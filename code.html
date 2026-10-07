@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#F8FAFC;}body{overscroll-behavior:none;font-family:'Public Sans',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"inverse-surface": "#e0e2ec", "secondary-fixed": "#89f5e7", tertiary: "#93ccff", "border-strong": "#94A3B8", "primary-container": "#0f2942", "on-background": "#e0e2ec", "tertiary-container": "#002a44", "error-container": "#93000a", "on-secondary": "#003732", primary: "#b0c9e8", "surface-canvas": "#F8FAFC", "on-surface-variant": "#c3c6ce", "on-secondary-container": "#00302b", "inverse-on-surface": "#2d3038", "surface-card": "#FFFFFF", "surface-container-highest": "#32353c", "primary-fixed-dim": "#b0c9e8", surface: "#10131a", "surface-bright": "#363941", "status-alert": "#991B1B", "border-subtle": "#CBD5E1", outline: "#8d9198", "ai-provenance-bg": "#EEF2FF", "surface-container": "#1d2027", "surface-muted": "#F1F5F9", "on-tertiary": "#003351", "on-primary-fixed": "#011d35", "tertiary-fixed": "#cce5ff", "tertiary-fixed-dim": "#93ccff", "status-alert-bg": "#FEF2F2", error: "#ffb4ab", "secondary-fixed-dim": "#6bd8cb", "secondary-container": "#29a195", "primary-fixed": "#d1e4ff", background: "#10131a", "surface-container-low": "#191c22", "on-tertiary-fixed-variant": "#004b73", "on-surface": "#e0e2ec", "on-primary-container": "#7991af", secondary: "#6bd8cb", "surface-container-lowest": "#0b0e15", "surface-variant": "#32353c", "on-primary": "#19324b", "on-error": "#690005", "on-primary-fixed-variant": "#314863", "surface-dim": "#10131a", "on-secondary-fixed-variant": "#005049", "ai-provenance": "#4338CA", "outline-variant": "#43474d", "on-error-container": "#ffdad6", "inverse-primary": "#49607c", "on-tertiary-container": "#2e95da", "on-tertiary-fixed": "#001d31", "on-secondary-fixed": "#00201d", "status-verified-bg": "#ECFDF5", "surface-container-high": "#272a31", "status-verified": "#065F46", "surface-tint": "#b0c9e8"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"space-xs": "0.25rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "gutter-mobile": "1rem", gutter: "1.5rem", "margin-mobile": "1rem", margin: "2rem", "space-lg": "1.5rem", "space-md": "1rem"}, fontFamily: {"headline-lg-mobile": ["Public Sans"], "label-md": ["Public Sans"], "headline-lg": ["Public Sans"], display: ["Montserrat"], "body-md": ["Public Sans"], "code-badge": ["Public Sans"], "headline-md": ["Public Sans"], "body-lg": ["Public Sans"], "label-sm": ["Public Sans"], "body-sm": ["Public Sans"], "headline-sm": ["Public Sans"], "display-mobile": ["Public Sans"], headline: ["Montserrat"], body: ["Montserrat"], label: ["Montserrat"]}, fontSize: {"headline-lg-mobile": ["1.625rem", {lineHeight: "2.125rem", letterSpacing: "-0.015em", fontWeight: "700"}], "label-md": ["0.875rem", {lineHeight: "1.25rem", letterSpacing: "0.01em", fontWeight: "600"}], "headline-lg": ["2rem", {lineHeight: "2.5rem", letterSpacing: "-0.02em", fontWeight: "700"}], display: ["3rem", {lineHeight: "3.5rem", letterSpacing: "-0.025em", fontWeight: "800"}], "body-md": ["1rem", {lineHeight: "1.5rem", fontWeight: "400"}], "code-badge": ["0.6875rem", {lineHeight: "0.875rem", letterSpacing: "0.06em", fontWeight: "700"}], "headline-md": ["1.5rem", {lineHeight: "2rem", letterSpacing: "-0.01em", fontWeight: "600"}], "body-lg": ["1.125rem", {lineHeight: "1.75rem", fontWeight: "400"}], "label-sm": ["0.75rem", {lineHeight: "1rem", letterSpacing: "0.04em", fontWeight: "600"}], "body-sm": ["0.875rem", {lineHeight: "1.375rem", fontWeight: "400"}], "headline-sm": ["1.25rem", {lineHeight: "1.75rem", fontWeight: "600"}], "display-mobile": ["2.25rem", {lineHeight: "2.75rem", letterSpacing: "-0.02em", fontWeight: "800"}]}}}};</script><style>
     body {
       min-height: max(884px, 100dvh);
@@ -11,316 +11,367 @@
       min-height: max(884px, 100dvh);
     }
   </style>
-  </head><body class="bg-surface-canvas text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-card/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(15,41,66,0.06)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Go back" class="w-11 h-11 flex items-center justify-center rounded-lg text-primary hover:bg-surface-muted transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="Marc Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UFpMbR-PKiEb2NodsKKQftWlzq4bJ8dSZqTrIpTJIbbQOkx9DBRYnQ8MvyK9VF6aFZK6KLBaiFi2731Y2W6tO12-cqjzvvdm6sBkP0e_Bn1d5h8v29Xddyk1iPsyORDbhUt6ZCgZsj15OKHQOkLpXh4kl4lqk3ylQdEV0EbJ5OX0HySnuobIRMHV6pALIvur2ZBzVFYbuMwvN-XwypRBMGsd6jo0UtVz-mXArF--4B"/><h1 class="text-headline-sm font-headline-sm text-primary tracking-tight truncate max-w-[190px]">Benefit Detail</h1></div><div class="flex items-center gap-space-xs"><span class="bg-status-verified-bg text-status-verified text-code-badge font-code-badge px-2 py-0.5 rounded-full font-bold uppercase hidden sm:inline-flex">MA VERIFIED</span><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe bg-surface-canvas min-h-screen"><div class="flex flex-col w-full">
-<!-- Content Container with mobile-first safe spacing -->
-<div class="px-gutter-mobile py-space-md flex flex-col gap-space-md max-w-[768px] mx-auto w-full">
-<!-- Top Breadcrumb & Status Pill -->
-<div class="flex items-center justify-between gap-space-sm">
-<a class="inline-flex items-center gap-space-xs text-primary font-label-sm text-label-sm hover:opacity-80 transition-opacity" href="javascript:history.back()">
-<span class="material-symbols-outlined text-[16px]">arrow_back</span>
-<span class="truncate">Back to Results / SNAP Verification</span>
-</a>
-<span class="bg-status-verified-bg text-status-verified text-code-badge font-code-badge px-2 py-0.5 rounded-full inline-flex items-center gap-1">
-<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">verified</span>
-<span>AUDITED RULE</span>
-</span>
-</div>
-<!-- Section Title & Humanized Intro -->
-<div class="bg-surface-card rounded-xl p-space-md shadow-sm">
-<div class="flex items-start justify-between gap-space-sm">
-<div>
-<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block">Deterministic Proof Engine</span>
-<h2 class="text-headline-md font-headline-md text-primary mt-1">SNAP Eligibility Calculation &amp; Source Rules</h2>
-<p class="text-on-surface-variant font-body-sm text-body-sm mt-1">
-            Zero-hallucination verification trace. Derived straight from codified Massachusetts statutes, validated against your household attributes.
-          </p>
-</div>
-<div class="w-10 h-10 rounded-lg bg-surface-muted flex items-center justify-center shrink-0 text-primary">
-<span class="material-symbols-outlined text-[24px]">policy</span>
-</div>
-</div>
-</div>
-<!-- Transparent Rules Box (rules.json Inspector View) -->
-<div class="bg-surface-card rounded-xl shadow-sm overflow-hidden flex flex-col">
-<!-- Terminal/Inspector Header -->
-<div class="bg-primary-container px-space-md py-space-sm flex items-center justify-between text-on-primary">
-<div class="flex items-center gap-2">
-<span class="inline-block w-2.5 h-2.5 rounded-full bg-status-verified"></span>
-<span class="text-code-badge font-code-badge text-primary-fixed tracking-wider uppercase">rules.json • inspect_mode</span>
-</div>
-<button class="bg-primary/40 hover:bg-primary/70 text-primary-fixed text-code-badge font-code-badge px-2.5 py-1 rounded transition-colors flex items-center gap-1" id="copyJsonBtn">
-<span class="material-symbols-outlined text-[14px]">content_copy</span>
-<span id="copyJsonLabel">Copy Rule JSON</span>
+  </head><body class="bg-surface-canvas text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-card/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(15,41,66,0.06)]"><div class="h-28 flex flex-col justify-between px-gutter-mobile py-space-xs"><div class="flex items-center justify-between w-full"><p class="text-code-badge font-code-badge text-on-surface-variant flex items-center gap-space-xs"><span class="material-symbols-outlined text-[13px] text-secondary">verified_user</span>Not medical/legal advice. Verifiable with Mass.gov DTA caseworkers.</p><span class="bg-surface-muted text-primary px-space-xs py-0.5 rounded text-code-badge font-code-badge tracking-wider uppercase font-bold">MA OFFICIAL PILOT</span></div><div class="flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Marc Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UFpMbR-PKiEb2NodsKKQftWlzq4bJ8dSZqTrIpTJIbbQOkx9DBRYnQ8MvyK9VF6aFZK6KLBaiFi2731Y2W6tO12-cqjzvvdm6sBkP0e_Bn1d5h8v29Xddyk1iPsyORDbhUt6ZCgZsj15OKHQOkLpXh4kl4lqk3ylQdEV0EbJ5OX0HySnuobIRMHV6pALIvur2ZBzVFYbuMwvN-XwypRBMGsd6jo0UtVz-mXArF--4B"/><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="text-headline-sm font-headline-sm text-primary tracking-tight">Marc.</span><span class="bg-status-verified-bg text-status-verified text-code-badge font-code-badge px-1.5 py-0.5 rounded-full flex items-center gap-0.5 font-bold"><span class="material-symbols-outlined text-[11px]">check_circle</span>MA Verified</span></div><div class="flex items-center text-on-surface-variant gap-0.5"><span class="material-symbols-outlined text-[12px] text-secondary">location_on</span><span class="text-label-sm font-label-sm text-on-surface-variant">Greater Boston / Statewide</span></div></div></div><div class="flex items-center gap-space-sm"><a class="h-11 px-3 bg-ai-provenance-bg hover:bg-ai-provenance-bg/80 text-ai-provenance rounded-lg flex items-center gap-1.5 transition-colors touch-manipulation" data-path="ask-marc" href="#"><span class="material-symbols-outlined text-[18px]">forum</span><span class="text-label-sm font-label-sm font-bold">Ask Marc</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="flex flex-col relative w-full pt-28 pb-24 bg-surface-canvas min-h-screen"><div class="flex flex-col w-full pb-10">
+<!-- Mode Switcher: Quick vs Detailed -->
+<section class="px-gutter-mobile pt-space-sm pb-space-xs">
+<div class="bg-surface-muted p-1 rounded-xl flex items-center gap-1 shadow-sm">
+<button class="flex-1 py-2 px-3 rounded-lg text-label-sm font-label-sm transition-all flex items-center justify-center gap-1.5 bg-surface-card text-primary shadow-sm" id="btn-quick" onclick="switchMode('quick')" type="button">
+<span class="material-symbols-outlined text-[16px] text-secondary">bolt</span>
+<span>Quick Screening (3 min)</span>
+</button>
+<button class="flex-1 py-2 px-3 rounded-lg text-label-sm font-label-sm transition-all flex items-center justify-center gap-1.5 text-on-surface-variant hover:text-primary" id="btn-detailed" onclick="switchMode('detailed')" type="button">
+<span class="material-symbols-outlined text-[16px]">fact_check</span>
+<span>Detailed Intake (8 min)</span>
 </button>
 </div>
-<!-- Rule Spec Content -->
-<div class="p-space-md flex flex-col gap-space-md">
-<!-- Rule Meta Row -->
-<div class="flex flex-col gap-1">
-<span class="text-label-sm font-label-sm text-outline uppercase tracking-wider">Statutory Rule Identifier</span>
-<div class="flex items-center gap-2 flex-wrap">
-<span class="bg-surface-muted text-primary px-2.5 py-1 rounded font-code-badge text-code-badge select-all font-mono">
-              MA-SNAP-106CMR364-FPL200
-            </span>
-<span class="bg-ai-provenance-bg text-ai-provenance text-code-badge font-code-badge px-2 py-0.5 rounded-full flex items-center gap-1">
-<span class="material-symbols-outlined text-[12px]">code</span>
-              DTA RAG Verified
-            </span>
+<div class="mt-2 px-1" id="mode-explanation">
+<p class="text-body-sm font-body-sm text-on-surface-variant flex items-start gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary shrink-0 mt-0.5">info</span>
+<span><strong>Quick Mode:</strong> Best for rapid self-assessment of SNAP, WIC, and Fuel Assistance caps before applying via DTA Connect.</span>
+</p>
 </div>
-</div>
-<div class="flex flex-col gap-1">
-<span class="text-label-sm font-label-sm text-outline uppercase tracking-wider">Formal Rule Title</span>
-<p class="text-body-md font-body-md text-on-surface font-semibold">
-            Categorical Eligibility for Massachusetts SNAP (Gross Income ≤ 200% Federal Poverty Level)
-          </p>
-</div>
-<!-- Official Source & Verification Metadata -->
-<div class="bg-surface-canvas rounded-lg p-space-sm flex flex-col gap-2">
-<div class="flex items-start justify-between gap-space-sm">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary text-[20px]">account_balance</span>
-<div>
-<span class="text-label-sm font-label-sm text-on-surface block font-bold">Official State Authority</span>
-<span class="text-body-sm font-body-sm text-on-surface-variant">Mass.gov Department of Transitional Assistance (DTA)</span>
-</div>
-</div>
-<a aria-label="Open Mass.gov SNAP official eligibility portal" class="text-primary hover:text-secondary inline-flex items-center gap-1 text-label-sm font-label-sm mt-1 shrink-0" href="https://www.mass.gov/service-details/check-snap-eligibility-and-how-to-apply" rel="noopener noreferrer" target="_blank">
-<span>View Source</span>
-<span class="material-symbols-outlined text-[16px]">open_in_new</span>
-</a>
-</div>
-<div class="flex items-center gap-1.5 text-on-surface-variant text-label-sm font-label-sm pt-1">
-<span class="material-symbols-outlined text-[16px] text-secondary">update</span>
-<span>Last Verified: <strong class="text-on-surface">October 14, 2024</strong> (Automated weekly crawler &amp; human caseworker review)</span>
-</div>
-</div>
-<!-- Deterministic Engine Result Banner -->
-<div class="bg-status-verified-bg text-status-verified rounded-lg p-space-md flex flex-col gap-2">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-[24px]">task_alt</span>
-<span class="text-headline-sm font-headline-sm">Deterministic Engine Result: Pass</span>
-</div>
-<div class="bg-surface-card/80 rounded p-space-sm">
-<p class="text-body-sm font-body-sm text-status-verified font-medium">
-              Calculated match: <span class="font-bold">Pass</span> • (Household gross $1,850 &lt; $2,510 limit for household size 1)
-            </p>
-<div class="w-full bg-status-verified/20 rounded-full h-2 mt-2 overflow-hidden">
-<div class="bg-status-verified h-2 rounded-full" style="width: 73.7%;"></div>
-</div>
-<div class="flex justify-between items-center text-code-badge font-code-badge mt-1 text-status-verified">
-<span>Reported: $1,850/mo</span>
-<span>73.7% of Ceiling</span>
-<span>Ceiling: $2,510/mo</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Referral Pathway Guidance (Specialized Referral Development) -->
-<div class="bg-surface-card rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
-<div class="flex items-start justify-between gap-space-sm">
-<div>
-<div class="inline-flex items-center gap-1 text-secondary text-code-badge font-code-badge uppercase tracking-wider mb-1">
-<span class="material-symbols-outlined text-[14px]">route</span>
-            Closed-Loop Referral Path
-          </div>
-<h3 class="text-headline-sm font-headline-sm text-primary">How to Develop This Referral</h3>
-<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">
-            Required protocol for specialized slots such as Vinfen TIP, DMH Clubhouses, or Mass. Rehab Commission (MRC) vocational placements.
-          </p>
-</div>
-<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[20px]">assignment</span>
-</div>
-</div>
-<!-- Step by Step Timeline -->
-<div class="flex flex-col gap-space-sm relative pl-6 before:content-[''] before:absolute before:left-2.5 before:top-3 before:bottom-3 before:w-0.5 before:bg-surface-container-highest">
-<!-- Step 1 -->
-<div class="relative flex flex-col gap-0.5">
-<span class="absolute -left-6 top-0 w-5 h-5 rounded-full bg-primary text-on-primary text-code-badge font-code-badge flex items-center justify-center">1</span>
-<h4 class="text-label-md font-label-md text-on-surface">Confirm Existing Agency Involvement</h4>
-<p class="text-body-sm font-body-sm text-on-surface-variant">
-            Retrieve active DMH client ID, MassHealth RID, or MRC enrollment token from case records or client portal.
-          </p>
-</div>
-<!-- Step 2 -->
-<div class="relative flex flex-col gap-0.5 pt-2">
-<span class="absolute -left-6 top-2 w-5 h-5 rounded-full bg-primary text-on-primary text-code-badge font-code-badge flex items-center justify-center">2</span>
-<h4 class="text-label-md font-label-md text-on-surface">Request Form From Site Supervisor</h4>
-<p class="text-body-sm font-body-sm text-on-surface-variant">
-            Secure clinical referral packet or Clubhouse liaison attestation form prior to slot intake window.
-          </p>
-</div>
-<!-- Step 3 -->
-<div class="relative flex flex-col gap-0.5 pt-2">
-<span class="absolute -left-6 top-2 w-5 h-5 rounded-full bg-primary text-on-primary text-code-badge font-code-badge flex items-center justify-center">3</span>
-<h4 class="text-label-md font-label-md text-on-surface">Marc Pre-filled Caseworker Email</h4>
-<p class="text-body-sm font-body-sm text-on-surface-variant">
-            Use the generated institutional template below with integrated rule verification references.
-          </p>
-</div>
-</div>
-<!-- Copy Email Template Card -->
-<div class="bg-surface-muted rounded-xl p-space-sm flex flex-col gap-2">
+</section>
+<!-- Step Progress Indicator -->
+<section class="px-gutter-mobile py-space-sm">
+<div class="bg-surface-card rounded-xl p-space-sm shadow-sm flex flex-col gap-2">
 <div class="flex items-center justify-between">
-<div class="flex items-center gap-1.5 text-primary text-label-sm font-label-sm font-semibold">
-<span class="material-symbols-outlined text-[18px]">outgoing_mail</span>
-<span>Caseworker Referral Template</span>
+<span class="text-code-badge font-code-badge text-secondary font-bold tracking-wider uppercase">Step 2 of 4</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant font-bold">Household &amp; Eligibility Factors</span>
 </div>
-<button class="bg-primary text-on-primary text-label-sm font-label-sm px-3 py-1.5 rounded-lg flex items-center gap-1 hover:opacity-90 active:scale-95 transition-all" id="copyEmailBtn">
-<span class="material-symbols-outlined text-[16px]" id="emailBtnIcon">content_copy</span>
-<span id="copyEmailText">Copy Email</span>
-</button>
+<!-- Progress Bar Track -->
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full transition-all duration-300" style="width: 50%;"></div>
 </div>
-<div class="bg-surface-card rounded p-3 text-body-sm font-body-sm text-on-surface-variant whitespace-pre-wrap select-all font-mono leading-relaxed" id="emailTemplateBody">Subject: Referral Request: SNAP &amp; Specialized Slot [Client ID: #&lt;DMH-ID&gt;]
-
-Dear Supervisor / Liaison,
-
-I am submitting a verified referral request for community navigation support. The client satisfies categorical eligibility under rule MA-SNAP-106CMR364-FPL200 with an audited gross household income of $1,850/mo.
-
-Could you please confirm receipt and issue the slot intake packet at your earliest availability?
-
-Best regards,
-Marc Civic Navigation Portal</div>
+<div class="flex items-center justify-between text-code-badge font-code-badge text-on-surface-variant">
+<span class="flex items-center gap-0.5 text-secondary font-bold"><span class="material-symbols-outlined text-[12px]">check_circle</span> 1. Residency</span>
+<span class="text-primary font-bold">2. Household</span>
+<span>3. Expenses &amp; Deductions</span>
+<span>4. Action Plan</span>
 </div>
 </div>
-<!-- Contextual Visual: Community Support Bridge -->
-<div class="rounded-xl overflow-hidden shadow-sm relative bg-primary-container text-on-primary">
-<img class="w-full h-36 object-cover opacity-30" data-alt="A warm, brightly lit Massachusetts community outreach center where an empathetic social worker and resident sit together discussing legal and food security options over a desk with folders and sunlight streaming through windows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvvhX-ccyIfIix_qFWbiPUgReuJxDd-_g9-EJ3jFGFPZfNNkWemgXXLY4gnKMEB4qF1HnnLufDp4d2guHUZvhsvIw2Xoc-a9nWLKY1U3LAsJYGGBQpZ5NQRSIepp2ZC9viJJlD6sX32IrezAfiNxjkRkHanBInNIw8za2kbIsbz5PDY9bTMGrx77P1KTYapHAwgmPU8-vaMmR7-f21LmJOCBmnME7r6nbZf7e1rZs"/>
-<div class="absolute inset-0 p-space-md flex flex-col justify-end bg-gradient-to-t from-primary via-primary/80 to-transparent">
-<span class="text-secondary-fixed text-code-badge font-code-badge uppercase tracking-wider">Human-Centered Assurance</span>
-<h3 class="text-headline-sm font-headline-sm text-on-primary">Trust Built on Radical Transparency</h3>
-<p class="text-body-sm font-body-sm text-primary-fixed mt-0.5 line-clamp-2">
-          Every threshold Marc computes is backed by raw statutory links, avoiding ambiguity and streamlining your direct application.
+</section>
+<!-- Official DTA Rules Engine Disclaimer -->
+<section class="px-gutter-mobile pb-space-sm">
+<div class="bg-surface-container-low rounded-xl p-3 shadow-sm flex items-start gap-2.5">
+<div class="w-7 h-7 rounded-lg bg-surface-muted flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px] text-primary">policy</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="bg-surface-muted text-primary px-1.5 py-0.5 rounded text-code-badge font-code-badge font-bold uppercase tracking-wider">106 CMR 364</span>
+<span class="text-code-badge font-code-badge text-on-surface-variant">Updated Oct 2024 Mass.gov DTA</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-0.5">
+          Official Rules Engine. Marc provides guidance, not official case management. Final award determined solely by Mass.gov Department of Transitional Assistance.
         </p>
 </div>
 </div>
-<!-- Community Contribution Card -->
-<div class="bg-surface-card rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
-<div class="flex items-start gap-space-sm">
-<div class="w-10 h-10 rounded-lg bg-ai-provenance-bg text-ai-provenance flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">domain_add</span>
+</section>
+<!-- Live Guidance Q&A Preview Pill -->
+<section class="px-gutter-mobile pb-space-sm">
+<div class="bg-ai-provenance-bg text-ai-provenance rounded-xl p-2.5 shadow-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] shrink-0 text-ai-provenance">tips_and_updates</span>
+<p class="text-body-sm font-body-sm min-w-0 flex-1 leading-snug">
+<strong>Tip:</strong> Autism spectrum diagnosis can qualify for MRC or DDS referrals even if not currently on SSI.
+      </p>
 </div>
-<div class="flex-1">
-<span class="text-ai-provenance text-code-badge font-code-badge uppercase tracking-wider block">Crowdsourced Civics</span>
-<h3 class="text-headline-sm font-headline-sm text-primary">Are you a service provider?</h3>
-<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">
-            Add or verify community resources (pantries, free clinics, rides, workshops) to Marc’s RAG index to assist Bay Staters across the Commonwealth.
-          </p>
-</div>
-</div>
-<button class="w-full bg-primary hover:bg-tertiary text-on-primary font-label-md text-label-md h-12 rounded-lg flex items-center justify-center gap-2 shadow transition-all active:scale-[0.99] mt-1" id="submitResourceBtn">
-<span class="material-symbols-outlined text-[20px]">add_location_alt</span>
-<span>Submit Community Resource / Event</span>
+</section>
+<!-- Main Screening Form Module -->
+<section class="px-gutter-mobile flex flex-col gap-space-md">
+<div class="bg-surface-card rounded-xl p-space-md shadow-md flex flex-col gap-space-lg">
+<!-- Field 1: Massachusetts ZIP or Town -->
+<div class="flex flex-col gap-1.5">
+<label class="text-label-md font-label-md text-primary flex items-center justify-between" for="zip-input">
+<span>Massachusetts Zip Code or Municipality</span>
+<span class="text-code-badge font-code-badge text-secondary font-bold">STATEWIDE DTA COVERAGE</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px] pointer-events-none">location_city</span>
+<input class="w-full h-12 pl-10 pr-10 rounded-lg bg-surface-muted text-primary text-body-md font-body-md focus:outline-none focus:bg-surface-card shadow-inner" id="zip-input" placeholder="Enter ZIP (e.g., 02138, 01608, 01103)" type="text" value="02138 - Cambridge, MA"/>
+<button aria-label="Use current location" class="absolute right-2 p-1.5 text-on-surface-variant hover:text-secondary rounded-lg" onclick="detectZip()" type="button">
+<span class="material-symbols-outlined text-[20px]">my_location</span>
 </button>
-<!-- Feedback Banner (Hidden Initially) -->
-<div class="hidden bg-status-verified-bg text-status-verified p-space-sm rounded-lg text-body-sm font-body-sm flex items-center gap-2" id="contributionBanner">
-<span class="material-symbols-outlined text-[20px]">check_circle</span>
-<span>Provider intake modal initialized. Thank you for strengthening Massachusetts safety nets.</span>
+</div>
+<p class="text-label-sm font-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">explore</span>
+          Middlesex County benefits apply (Includes City of Cambridge fuel assistance program).
+        </p>
+</div>
+<!-- Field 2: Household Size (Interactive Stepper) -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<label class="text-label-md font-label-md text-primary">Household Size (People who purchase &amp; prepare food)</label>
+<span class="text-code-badge font-code-badge text-on-surface-variant" id="hh-label-desc">Single Adult</span>
+</div>
+<div class="flex items-center justify-between bg-surface-muted p-1.5 rounded-xl">
+<button aria-label="Decrease household size" class="w-11 h-11 rounded-lg bg-surface-card text-primary flex items-center justify-center shadow-sm active:scale-95 transition-transform" onclick="adjustHousehold(-1)" type="button">
+<span class="material-symbols-outlined text-[22px]">remove</span>
+</button>
+<div class="flex items-baseline gap-1">
+<span class="text-display-mobile font-display-mobile text-primary" id="hh-value">1</span>
+<span class="text-body-md font-body-md text-on-surface-variant">resident(s)</span>
+</div>
+<button aria-label="Increase household size" class="w-11 h-11 rounded-lg bg-surface-card text-primary flex items-center justify-center shadow-sm active:scale-95 transition-transform" onclick="adjustHousehold(1)" type="button">
+<span class="material-symbols-outlined text-[22px]">add</span>
+</button>
+</div>
+<p class="text-label-sm font-label-sm text-on-surface-variant">
+          Include spouses and children under 22 living together, even if filing taxes separately.
+        </p>
+</div>
+<!-- Field 3: Monthly Gross Household Income (Slider & Direct Input) -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<label class="text-label-md font-label-md text-primary" for="income-input">Monthly Gross Household Income</label>
+<span class="text-code-badge font-code-badge text-secondary font-bold uppercase">Pre-tax (Wages + SSI + UI)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="relative flex-1">
+<span class="absolute left-3 top-3 text-body-md font-body-md text-on-surface-variant">$</span>
+<input class="w-full h-12 pl-7 pr-3 rounded-lg bg-surface-muted text-primary text-body-md font-body-md focus:outline-none focus:bg-surface-card shadow-inner" id="income-input" max="8000" min="0" oninput="syncSlider(this.value)" step="10" type="number" value="1850"/>
+</div>
+<span class="text-body-sm font-body-sm text-on-surface-variant shrink-0">/ month</span>
+</div>
+<!-- Accessible Slider -->
+<div class="flex flex-col gap-1 pt-1">
+<input class="w-full accent-primary h-2 bg-surface-container rounded-lg cursor-pointer" id="income-slider" max="6000" min="0" oninput="syncInput(this.value)" step="25" type="range" value="1850"/>
+<div class="flex justify-between text-code-badge font-code-badge text-on-surface-variant px-0.5">
+<span>$0</span>
+<span>$2,500</span>
+<span>$5,000+</span>
 </div>
 </div>
-<!-- Prominent Human Escalation Bar -->
-<div class="bg-status-alert-bg rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
-<div class="flex items-start gap-space-sm">
-<div class="w-9 h-9 rounded-full bg-status-alert text-on-primary flex items-center justify-center shrink-0 mt-0.5">
-<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
-</div>
-<div class="flex-1">
-<h4 class="text-headline-sm font-headline-sm text-status-alert">Need a human advocate right now?</h4>
-<p class="text-body-sm font-body-sm text-on-surface mt-1">
-            Algorithmic rules provide clarity, but human advocates stand ready to represent and fight for your benefits:
-          </p>
-</div>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs mt-1">
-<a class="bg-surface-card hover:bg-surface-muted text-primary p-space-sm rounded-lg shadow-sm flex items-center justify-between transition-colors" href="tel:18006458333">
+<!-- 200% FPL Benchmark Indicator Pill -->
+<div class="bg-status-verified-bg p-2.5 rounded-lg flex items-start gap-2 shadow-sm" id="fpl-benchmark-card">
+<span class="material-symbols-outlined text-status-verified text-[18px] shrink-0 mt-0.5">verified</span>
 <div class="flex flex-col">
-<span class="text-label-md font-label-md font-bold">Project Bread FoodSource</span>
-<span class="text-body-sm font-body-sm text-status-alert font-semibold">1-800-645-8333</span>
-</div>
-<span class="material-symbols-outlined text-primary text-[20px]">call</span>
-</a>
-<a class="bg-surface-card hover:bg-surface-muted text-primary p-space-sm rounded-lg shadow-sm flex items-center justify-between transition-colors" href="https://www.gbls.org" rel="noopener noreferrer" target="_blank">
-<div class="flex flex-col">
-<span class="text-label-md font-label-md font-bold">Greater Boston Legal Services</span>
-<span class="text-label-sm font-label-sm text-on-surface-variant">Legal aid &amp; appeals</span>
-</div>
-<span class="material-symbols-outlined text-primary text-[20px]">open_in_new</span>
-</a>
+<span class="text-label-sm font-label-sm text-status-verified font-bold" id="fpl-status-title">Eligible: Below Massachusetts 200% FPL Limit</span>
+<span class="text-body-sm font-body-sm text-status-verified" id="fpl-calc-text">SNAP Gross limit is <strong>$2,510/mo</strong> for 1 person (Oct 2024–Sep 2025). Your income is within standard qualification range.</span>
 </div>
 </div>
-<!-- Subtle Footer Note -->
-<div class="text-center py-space-sm text-outline font-label-sm text-label-sm">
-      Verification hash: <span class="font-mono">8f7c3e21a•dta_cmr_106</span> • Updated weekly
-    </div>
+</div>
+<!-- Field 4: Age & Life Situations (Multi-select Chips) -->
+<div class="flex flex-col gap-2">
+<label class="text-label-md font-label-md text-primary flex items-center justify-between">
+<span>Age &amp; Life Situations</span>
+<span class="text-code-badge font-code-badge text-on-surface-variant font-bold">Select all that apply</span>
+</label>
+<div class="grid grid-cols-2 gap-2" id="chip-container">
+<button class="chip-item p-2.5 rounded-lg bg-surface-card shadow-sm text-left flex items-start gap-2 transition-all" data-selected="false" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant shrink-0 mt-0.5 chip-icon">radio_button_unchecked</span>
+<div class="flex flex-col min-w-0">
+<span class="text-label-sm font-label-sm text-primary font-bold">Adult 18–59</span>
+<span class="text-code-badge font-code-badge text-on-surface-variant">General SNAP rules</span>
+</div>
+</button>
+<button class="chip-item p-2.5 rounded-lg bg-surface-card shadow-sm text-left flex items-start gap-2 transition-all" data-selected="false" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant shrink-0 mt-0.5 chip-icon">radio_button_unchecked</span>
+<div class="flex flex-col min-w-0">
+<span class="text-label-sm font-label-sm text-primary font-bold">Elderly (60+)</span>
+<span class="text-code-badge font-code-badge text-on-surface-variant">No gross income cap</span>
+</div>
+</button>
+<button class="chip-item p-2.5 rounded-lg bg-surface-card shadow-sm text-left flex items-start gap-2 transition-all" data-selected="true" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary shrink-0 mt-0.5 chip-icon">check_circle</span>
+<div class="flex flex-col min-w-0">
+<span class="text-label-sm font-label-sm text-primary font-bold">Has Disability</span>
+<span class="text-code-badge font-code-badge text-secondary font-bold">SSI/SSDI or chronic</span>
+</div>
+</button>
+<button class="chip-item p-2.5 rounded-lg bg-surface-card shadow-sm text-left flex items-start gap-2 transition-all" data-selected="false" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant shrink-0 mt-0.5 chip-icon">radio_button_unchecked</span>
+<div class="flex flex-col min-w-0">
+<span class="text-label-sm font-label-sm text-primary font-bold">Student (Higher Ed)</span>
+<span class="text-code-badge font-code-badge text-on-surface-variant">MassGrant/work study</span>
+</div>
+</button>
+<button class="chip-item p-2.5 rounded-lg bg-surface-card shadow-sm text-left flex items-start gap-2 transition-all" data-selected="true" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary shrink-0 mt-0.5 chip-icon">check_circle</span>
+<div class="flex flex-col min-w-0">
+<span class="text-label-sm font-label-sm text-primary font-bold">Employed</span>
+<span class="text-code-badge font-code-badge text-secondary font-bold">20% earned deduction</span>
+</div>
+</button>
+<button class="chip-item p-2.5 rounded-lg bg-surface-card shadow-sm text-left flex items-start gap-2 transition-all" data-selected="false" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant shrink-0 mt-0.5 chip-icon">radio_button_unchecked</span>
+<div class="flex flex-col min-w-0">
+<span class="text-label-sm font-label-sm text-primary font-bold">DMH / DDS / MRC</span>
+<span class="text-code-badge font-code-badge text-on-surface-variant">State agency client</span>
+</div>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Persistent Guidance Banner: Ask Marc Helper -->
+<section class="px-gutter-mobile py-space-sm">
+<div class="bg-ai-provenance-bg text-ai-provenance rounded-xl p-3 shadow-sm flex items-center justify-between gap-3">
+<div class="flex items-center gap-2.5 min-w-0">
+<div class="w-8 h-8 rounded-full bg-ai-provenance text-surface-card flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">chat_spark</span>
+</div>
+<p class="text-body-sm font-body-sm text-ai-provenance leading-tight">
+          Unsure about disability definitions or higher ed student exemptions?
+        </p>
+</div>
+<a class="px-3 py-1.5 rounded-lg bg-ai-provenance text-surface-card text-label-sm font-label-sm font-bold shrink-0 hover:opacity-90 transition-opacity" data-path="ask-marc" href="#">
+        Ask Marc
+      </a>
+</div>
+</section>
+<!-- Big Interactive CTA -->
+<section class="px-gutter-mobile pt-space-xs pb-space-lg flex flex-col gap-2">
+<button class="w-full h-14 bg-primary hover:bg-primary-container text-on-primary rounded-xl text-label-md font-label-md shadow-lg flex items-center justify-center gap-2 active:scale-[0.99] transition-all" onclick="proceedToResults()" type="button">
+<span class="text-headline-sm font-headline-sm tracking-normal">Calculate Benefits &amp; Uncover Resources</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<div class="flex items-center justify-center gap-2 text-code-badge font-code-badge text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>4 Programs Ready: SNAP ($292 est.), Fuel Assist, MassHealth, HIP Rebate ($40/mo)</span>
+</div>
+</section>
+<!-- Quick Feedback Toast (Hidden by default) -->
+<div class="fixed bottom-20 left-4 right-4 bg-primary text-on-primary p-3 rounded-xl shadow-xl flex items-center justify-between transition-all transform translate-y-28 opacity-0 pointer-events-none z-40" id="toast">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="text-body-sm font-body-sm font-bold" id="toast-text">Eligibility recalculating...</span>
+</div>
+<button class="text-on-primary/80 hover:text-on-primary" onclick="hideToast()" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
 </div>
 </div>
 <script>
-  // Copy Email Template Micro-interaction
-  const copyEmailBtn = document.getElementById('copyEmailBtn');
-  const copyEmailText = document.getElementById('copyEmailText');
-  const emailTemplateBody = document.getElementById('emailTemplateBody');
-  const emailBtnIcon = document.getElementById('emailBtnIcon');
+  // Massachusetts SNAP 200% FPL Caps (Oct 2024 - Sep 2025 standard)
+  const FPL_200_CAPS = {
+    1: 2510,
+    2: 3407,
+    3: 4303,
+    4: 5200,
+    5: 6097,
+    6: 6993,
+    7: 7890,
+    8: 8787
+  };
 
-  if (copyEmailBtn && emailTemplateBody) {
-    copyEmailBtn.addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(emailTemplateBody.innerText);
-        copyEmailText.textContent = 'Copied!';
-        emailBtnIcon.textContent = 'check';
-        copyEmailBtn.classList.add('bg-secondary');
-        setTimeout(() => {
-          copyEmailText.textContent = 'Copy Email';
-          emailBtnIcon.textContent = 'content_copy';
-          copyEmailBtn.classList.remove('bg-secondary');
-        }, 2200);
-      } catch (err) {
-        copyEmailText.textContent = 'Copied to Clipboard';
-      }
-    });
+  let householdSize = 1;
+  let grossIncome = 1850;
+
+  function adjustHousehold(delta) {
+    householdSize = Math.max(1, Math.min(8, householdSize + delta));
+    document.getElementById('hh-value').innerText = householdSize;
+    
+    const descriptions = {
+      1: "Single Adult",
+      2: "2 People (Couple / Parent & Child)",
+      3: "3 Family Members",
+      4: "4 Family Members",
+      5: "5 Family Members",
+      6: "6 Family Members",
+      7: "7 Family Members",
+      8: "8+ Family Members"
+    };
+    document.getElementById('hh-label-desc').innerText = descriptions[householdSize] || (householdSize + " People");
+    recalculateFpl();
   }
 
-  // Copy JSON Rule Micro-interaction
-  const copyJsonBtn = document.getElementById('copyJsonBtn');
-  const copyJsonLabel = document.getElementById('copyJsonLabel');
-
-  if (copyJsonBtn) {
-    copyJsonBtn.addEventListener('click', async () => {
-      const ruleJsonPayload = {
-        rule_id: "MA-SNAP-106CMR364-FPL200",
-        authority: "Mass.gov Department of Transitional Assistance",
-        regulation: "106 CMR 364.370",
-        fpl_percentage: 200,
-        household_size: 1,
-        gross_monthly_income_limit: 2510.00,
-        applicant_reported_gross: 1850.00,
-        result: "PASS",
-        verified_at: "2024-10-14T08:00:00Z",
-        source_url: "https://www.mass.gov/service-details/check-snap-eligibility-and-how-to-apply"
-      };
-
-      try {
-        await navigator.clipboard.writeText(JSON.stringify(ruleJsonPayload, null, 2));
-        copyJsonLabel.textContent = 'JSON Copied!';
-        setTimeout(() => {
-          copyJsonLabel.textContent = 'Copy Rule JSON';
-        }, 2000);
-      } catch (err) {
-        copyJsonLabel.textContent = 'Copied!';
-      }
-    });
+  function syncSlider(val) {
+    grossIncome = parseInt(val) || 0;
+    const slider = document.getElementById('income-slider');
+    slider.value = Math.min(6000, grossIncome);
+    recalculateFpl();
   }
 
-  // Community Contribution Interaction
-  const submitResourceBtn = document.getElementById('submitResourceBtn');
-  const contributionBanner = document.getElementById('contributionBanner');
-
-  if (submitResourceBtn && contributionBanner) {
-    submitResourceBtn.addEventListener('click', () => {
-      contributionBanner.classList.toggle('hidden');
-      if (!contributionBanner.classList.contains('hidden')) {
-        contributionBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }
-    });
+  function syncInput(val) {
+    grossIncome = parseInt(val) || 0;
+    document.getElementById('income-input').value = grossIncome;
+    recalculateFpl();
   }
-</script></main></body></html>
+
+  function recalculateFpl() {
+    const limit = FPL_200_CAPS[householdSize] || (2510 + (householdSize - 1) * 897);
+    const card = document.getElementById('fpl-benchmark-card');
+    const title = document.getElementById('fpl-status-title');
+    const desc = document.getElementById('fpl-calc-text');
+
+    if (grossIncome <= limit) {
+      card.className = "bg-status-verified-bg p-2.5 rounded-lg flex items-start gap-2 shadow-sm";
+      card.querySelector('.material-symbols-outlined').className = "material-symbols-outlined text-status-verified text-[18px] shrink-0 mt-0.5";
+      card.querySelector('.material-symbols-outlined').innerText = "verified";
+      title.className = "text-label-sm font-label-sm text-status-verified font-bold";
+      title.innerText = "Eligible: Below Massachusetts 200% FPL Limit";
+      desc.className = "text-body-sm font-body-sm text-status-verified";
+      desc.innerHTML = `SNAP Gross limit is <strong>$${limit.toLocaleString()}/mo</strong> for ${householdSize} person${householdSize > 1 ? 's' : ''}. Your income is within qualification range.`;
+    } else {
+      card.className = "bg-status-alert-bg p-2.5 rounded-lg flex items-start gap-2 shadow-sm";
+      card.querySelector('.material-symbols-outlined').className = "material-symbols-outlined text-status-alert text-[18px] shrink-0 mt-0.5";
+      card.querySelector('.material-symbols-outlined').innerText = "info";
+      title.className = "text-label-sm font-label-sm text-status-alert font-bold";
+      title.innerText = "Above Standard SNAP 200% FPL ($" + limit.toLocaleString() + ")";
+      desc.className = "text-body-sm font-body-sm text-status-alert";
+      desc.innerHTML = `If an elderly or disabled member is in the household, there is <strong>no gross income test</strong>, only a net income calculation. You may still qualify!`;
+    }
+  }
+
+  function toggleChip(button) {
+    const isSelected = button.getAttribute('data-selected') === 'true';
+    const nextState = !isSelected;
+    button.setAttribute('data-selected', nextState.toString());
+    const icon = button.querySelector('.chip-icon');
+    
+    if (nextState) {
+      button.classList.add('bg-surface-container-high');
+      icon.innerText = "check_circle";
+      icon.className = "material-symbols-outlined text-[18px] text-secondary shrink-0 mt-0.5 chip-icon";
+    } else {
+      button.classList.remove('bg-surface-container-high');
+      icon.innerText = "radio_button_unchecked";
+      icon.className = "material-symbols-outlined text-[18px] text-on-surface-variant shrink-0 mt-0.5 chip-icon";
+    }
+    showToast("Eligibility factors updated");
+  }
+
+  function switchMode(mode) {
+    const btnQuick = document.getElementById('btn-quick');
+    const btnDetailed = document.getElementById('btn-detailed');
+    const explanation = document.getElementById('mode-explanation');
+
+    if (mode === 'quick') {
+      btnQuick.className = "flex-1 py-2 px-3 rounded-lg text-label-sm font-label-sm transition-all flex items-center justify-center gap-1.5 bg-surface-card text-primary shadow-sm";
+      btnDetailed.className = "flex-1 py-2 px-3 rounded-lg text-label-sm font-label-sm transition-all flex items-center justify-center gap-1.5 text-on-surface-variant hover:text-primary";
+      explanation.innerHTML = `<p class="text-body-sm font-body-sm text-on-surface-variant flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-secondary shrink-0 mt-0.5">info</span><span><strong>Quick Mode:</strong> Best for rapid self-assessment of SNAP, WIC, and Fuel Assistance caps before applying via DTA Connect.</span></p>`;
+    } else {
+      btnDetailed.className = "flex-1 py-2 px-3 rounded-lg text-label-sm font-label-sm transition-all flex items-center justify-center gap-1.5 bg-surface-card text-primary shadow-sm";
+      btnQuick.className = "flex-1 py-2 px-3 rounded-lg text-label-sm font-label-sm transition-all flex items-center justify-center gap-1.5 text-on-surface-variant hover:text-primary";
+      explanation.innerHTML = `<p class="text-body-sm font-body-sm text-on-surface-variant flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-secondary shrink-0 mt-0.5">info</span><span><strong>Detailed Mode:</strong> Includes standard utility allowance (SUA), shelter costs, medical expenses ($35+ deduction for seniors/disabled), and child care credits.</span></p>`;
+    }
+    showToast(mode === 'quick' ? "Switched to Quick Screening" : "Detailed Case Intake Loaded");
+  }
+
+  function detectZip() {
+    const input = document.getElementById('zip-input');
+    input.value = "02139 - Cambridge (Inman Sq)";
+    showToast("Location updated to 02139");
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('toast');
+    document.getElementById('toast-text').innerText = msg;
+    toast.classList.remove('translate-y-28', 'opacity-0', 'pointer-events-none');
+    setTimeout(() => {
+      hideToast();
+    }, 2800);
+  }
+
+  function hideToast() {
+    const toast = document.getElementById('toast');
+    toast.classList.add('translate-y-28', 'opacity-0', 'pointer-events-none');
+  }
+
+  function proceedToResults() {
+    showToast("Analyzing 106 CMR rules engine...");
+    setTimeout(() => {
+      window.location.hash = "#resources";
+    }, 600);
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-card/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(15,41,66,0.08)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-12 transition-colors text-primary font-bold" data-path="screening" href="#"><span class="material-symbols-outlined text-[22px]">assignment</span><span class="text-label-sm font-label-sm">Screening</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-12 text-on-surface-variant transition-colors" data-path="resources" href="#"><span class="material-symbols-outlined text-[22px]">format_list_bulleted</span><span class="text-label-sm font-label-sm">Resources</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-12 text-on-surface-variant transition-colors" data-path="ask-marc" href="#"><span class="material-symbols-outlined text-[22px]">chat_spark</span><span class="text-label-sm font-label-sm">Ask Marc</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-12 text-on-surface-variant transition-colors" data-path="provider-hub" href="#"><span class="material-symbols-outlined text-[22px]">apartment</span><span class="text-label-sm font-label-sm">Provider Hub</span></a></div></nav></body></html>
